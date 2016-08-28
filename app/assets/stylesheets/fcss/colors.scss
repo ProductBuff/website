@@ -1,0 +1,20 @@
+// Text colors
+.c-white { color: white; }
+.c-black { color: var(--black); }
+.c-green { color: var(--green); }
+.c-green-light { color: var(--green-light); }
+
+// Background colors
+.bg-green { background-color: var(--green); }
+.bg-green-dark { background-color: var(--green-dark); }
+.bg-gray-light { background-color: var(--gray-light); }
+
+// Variables
+:root {
+  --black: #2c2c2c;
+  --green: #58b858;
+  --green-dark: #3f4440;
+  --green-light: #d2e4d5;
+  --gray: #9fa3a7;
+  --gray-light: #f7f7f7;
+}
