@@ -1,0 +1,17 @@
+doctype 5
+html lang="en-US" prefix="og: http://ogp.me/ns#"
+  head
+    meta[charset="utf-8"]
+    /[if lt IE 9]
+      meta[content="text/html; charset=utf-8" http-equiv="Content-Type"]
+      = javascript_include_tag "//html5shiv.googlecode.com/svn/trunk/html5.js"
+    meta[name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"]
+
+    / ===== Default Google meta tags
+    meta name="robots" content="index, follow"
+
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+
+  body class="#{params[:controller]} #{params[:action]}"
+    = yield
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
