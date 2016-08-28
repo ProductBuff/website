@@ -1,1 +1,8 @@
-body { font-family: var(--font-family-open); }
+body { 
+  font-family: var(--font-family-open);
+  color: var(--black);
+}
+
+// Line-height
+h1 { line-height: 3.1875rem; }
+h3 { line-height: 1.875rem; }
