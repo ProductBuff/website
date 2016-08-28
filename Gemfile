@@ -14,6 +14,11 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
+# Front-end gems
+gem 'slim-rails', '~> 3.0.1'
+gem 'autoprefixer-rails', '~> 5.2.1'
+gem 'bootstrap-sass', '~> 3.3.5'
+gem 'font-awesome-rails', '~> 4.4.0'
 
 group :development, :test do
   gem 'pry-rails'
