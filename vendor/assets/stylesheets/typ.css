@@ -52,7 +52,8 @@ blockquote {
 em { font-style: italic; }
 
 b,
-strong { font-weight: 700; }
+strong,
+.strong { font-weight: 700; }
 
 abbr {
   font-weight: 600;
