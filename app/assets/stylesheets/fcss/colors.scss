@@ -10,6 +10,7 @@
 .bg-green-dark { background-color: var(--green-dark); }
 .bg-gray-light { background-color: var(--gray-light); }
 .bg-black { background-color: var(--black); }
+.bg-gray-medium { background-color: var(--gray-medium); }
 
 // Variables
 :root {
@@ -17,6 +18,7 @@
   --green: #58b858;
   --green-dark: #3f4440;
   --green-light: #d2e4d5;
+  --gray-medium: #d8d8d8;
   --gray: #9fa3a7;
   --gray-light: #f7f7f7;
 }
