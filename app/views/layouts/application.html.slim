@@ -16,6 +16,7 @@ html lang="en-US" prefix="og: http://ogp.me/ns#"
     link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Montserrat:400,700|Open+Sans" rel="stylesheet"
 
   body class="#{params[:controller]} #{params[:action]}"
+    = render 'partials/header'
     = yield
     = render 'partials/footer'
     = javascript_include_tag 'application', 'data-turbolinks-track' => true

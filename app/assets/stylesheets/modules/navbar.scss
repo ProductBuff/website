@@ -1,0 +1,28 @@
+// Override bootstrap style
+// Navbar color
+.navbar-default {
+  background-color: transparent;
+  border: none;
+}
+
+// Navbar links
+.navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: var(--green);
+  transition: all .3s;
+
+  &:hover,
+  &:focus {
+    color: var(--black);
+  }
+}
+
+// Brand
+a.brand {
+  color: var(--green);
+  text-decoration: none;
+}
