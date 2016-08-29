@@ -2,12 +2,14 @@
 .c-white { color: white; }
 .c-black { color: var(--black); }
 .c-green { color: var(--green); }
+
 .c-green-light { color: var(--green-light); }
 
 // Background colors
 .bg-green { background-color: var(--green); }
 .bg-green-dark { background-color: var(--green-dark); }
 .bg-gray-light { background-color: var(--gray-light); }
+.bg-black { background-color: var(--black); }
 
 // Variables
 :root {
