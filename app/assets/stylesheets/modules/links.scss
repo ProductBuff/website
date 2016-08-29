@@ -1,0 +1,9 @@
+a.c-green-light {
+  transition: all .3s;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--green);
+  }
+}
