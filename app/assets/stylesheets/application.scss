@@ -10,6 +10,8 @@
 @import 'fcss/colors';
 @import 'fcss/radius';
 @import 'fcss/measures';
+@import 'fcss/border';
+@import 'fcss/boxshadow';
 
 // ==== Base
 @import 'base/typography';
@@ -21,3 +23,4 @@
 @import 'modules/forms';
 @import 'modules/links';
 @import 'modules/navbar';
+@import 'modules/panel';
