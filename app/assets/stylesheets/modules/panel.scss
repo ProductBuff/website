@@ -1,9 +1,56 @@
+.panel {
+  border-bottom: 2px solid rgba(255, 255, 255, .1);
+  border-radius: 0 !important;
+
+  a {
+    .panel-heading {
+      display: table;
+      width: 100%;
+
+      h3 {
+        display: table-cell;
+        padding-right: 20px;
+        vertical-align: middle;
+      }
+
+      .faq-toggle {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+
+    span {
+      right: 35px;
+      color: white;
+      font-size: var(--font-scale-largest);
+    }
+
+    span.plus {
+      display: none;
+    }
+
+    span.minus{
+      display: inline;
+    }
+
+    &.collapsed {
+      span.plus {
+        display: inline;
+      }
+
+      span.minus{
+        display: none;
+      }
+    }
+  }
+}
+
 .panel a:hover,
 .panel a:focus {
   text-decoration: none;
 
   h3 {
-    color: white;
+    color: var(--green);
     transition: all .3s;
   }
 }
