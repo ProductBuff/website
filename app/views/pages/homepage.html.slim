@@ -137,14 +137,14 @@ section.bg-gray-light.pY-70
             h3.ff-arvo You?
             h6.mB-10.ff-montserrat.c-gray.ls-2.tt-u Virtual Assistant
 
-section.bg-green-dark.pY-70
+section.bg-green-dark.pT-70.pB-50
   .container
     .row
       .col-sm-10.col-md-8.fl-n.mX-a
         h2.mT-0.mB-10.ta-c.ff-arvo.c-green.fw-n Ready to work with us?
         h4.m-0.ff-montserrat.tw-n.ls-2.tt-u.c-green-light.ta-c Our services start at $5,000 USD
         p.ff-montserrat.tw-n.small.c-green-light.ta-c
-          | (Join our pilot program NOW and receive <strong> 50% off </strong> - But hurry, there’s <strong>only 1 Spot left</strong>)
+          | Join our pilot program NOW and receive <strong> 50% OFF </strong> - But hurry, there’s <strong>only 1 Spot left!</strong>
     .row
       .col-sm-8.fl-n.mX-a.ta-c
         h3.mT-0.mB-50.ff-montserrat.fw-n.c-white Have one of our experienced Product Managers reach out to you to turn your product idea into a reality, quickly and efficiently.
@@ -155,3 +155,31 @@ section.bg-green-dark.pY-70
         input.form-control.bdrs-50px.mB-20.pX-25.fz-large[type="text" placeholder="example@email.com"]
         input.form-control.bdrs-50px.mB-20.pX-25.fz-large[type="text" placeholder="Your phone number"]
          = link_to 'Yes, I am, please contact me', '#', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b', title: 'Learn more'
+
+section.bg-green-dark.pT-40.pB-70
+  .container
+    .row
+      .col-sm-10.col-md-8.fl-n.mX-a
+        h2.mT-0.mB-20.ta-c.ff-arvo.c-white.fw-n FAQ
+        .panel-group#accordion[role="tablist" aria-multiselectable="true"]
+          .panel.panel-default.bd-0.bg-black.bs-n
+            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="true" aria-controls="collapse-one"]
+              .panel-heading.pX-15[role="tab" id="heading-one"]
+                h3.ff-arvo.fw-n.c-green.m-0 Do I need to have validated my idea previously?
+            .panel-collapse.collapse#collapse-one[role="tabpanel" aria-labelledby="heading-one"]
+              .panel-body.pY-0
+                p.c-white No, that’s our job. When you work with us, the very first thing we do is validating the need for your product in the marketplace.
+          .panel.panel-default.bd-0.bg-black.bs-n
+            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="true" aria-controls="collapse-two"]
+              .panel-heading[role="tab" id="heading-two"]
+                h3.ff-arvo.fw-n.c-green.m-0 Do I need to have expertise in software product development?
+            .panel-collapse.collapse#collapse-two[role="tabpanel" aria-labelledby="heading-two"]
+              .panel-body.pY-0
+                p.c-white No, you will be working with a team of experts who have been developing software products for many years.
+          .panel.panel-default.bd-0.bg-black.bs-n
+            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three"]
+              .panel-heading[role="tab" id="heading-three"]
+                h3.ff-arvo.fw-n.c-green.m-0 Do I need to spend lots of time and money to validate my new product?
+            .panel-collapse.collapse#collapse-three[role="tabpanel" aria-labelledby="heading-three"]
+              .panel-body.pY-0
+                p.c-white No, you will be taking advantage of our methodology (The RPP Method) which minimizes the time and cost while maximizes the success of launching your new product.

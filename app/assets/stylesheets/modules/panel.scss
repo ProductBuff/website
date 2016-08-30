@@ -1,0 +1,9 @@
+.panel a:hover,
+.panel a:focus {
+  text-decoration: none;
+
+  h3 {
+    color: white;
+    transition: all .3s;
+  }
+}
