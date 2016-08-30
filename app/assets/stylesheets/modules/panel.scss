@@ -19,6 +19,18 @@
       }
     }
 
+    &:hover,
+    &:focus {
+      text-decoration: none !important;
+    }
+
+    &:hover {
+      h3 {
+        color: var(--green);
+        transition: all .3s;
+      }
+    }
+
     span {
       right: 35px;
       color: white;
@@ -42,15 +54,5 @@
         display: none;
       }
     }
-  }
-}
-
-.panel a:hover,
-.panel a:focus {
-  text-decoration: none;
-
-  h3 {
-    color: var(--green);
-    transition: all .3s;
   }
 }
