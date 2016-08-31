@@ -17,6 +17,19 @@ Bundler.require(*Rails.groups)
 
 module Website
   class Application < Rails::Application
+    config.time_zone = 'Eastern Time (US & Canada)'
+    config.i18n.locale = :en
+    config.i18n.default_locale = :en
+    config.i18n.available_locales = %i(en)
+    config.i18n.enforce_available_locales = true
+    config.sass.preferred_syntax = :scss
+    config.generators do |g|
+      g.helper false
+      g.javascripts false
+      g.stylesheets false
+      g.template_engine :slim
+    end
+
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -31,5 +44,7 @@ module Website
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    # Enables compression for assets
+    config.middleware.use Rack::Deflater
   end
 end
