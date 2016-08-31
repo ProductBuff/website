@@ -19,6 +19,8 @@ gem 'slim-rails', '~> 3.1'
 gem 'autoprefixer-rails', '~> 6.0'
 gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-rails', '~> 4.6'
+# For better forms
+gem 'simple_form', '~> 3.3'
 
 group :development, :test do
   gem 'pry-rails'
