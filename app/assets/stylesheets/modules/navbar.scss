@@ -30,25 +30,24 @@ a.brand {
 // Navbar toggle (mobile)
 .navbar-toggle {
   padding: 12px 10px;
-  // margin-top: 15px;
 }
 
 .navbar-default .navbar-toggle {
   border: 0;
-  background-color: var(--black);
+  background-color: var(--green);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: var(--green);
+  background-color: var(--black);
 }
 
 .navbar-default .navbar-toggle:hover, 
 .navbar-default .navbar-toggle:focus {
-  background-color: var(--green);
+  background-color: var(--black);
   transition: all .3s;
 
   .icon-bar {
-    background-color: var(--black);
+    background-color: var(--green);
     transition: all .3s;
   }
 }
