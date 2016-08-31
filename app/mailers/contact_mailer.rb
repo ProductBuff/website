@@ -6,6 +6,6 @@ class ContactMailer < ApplicationMailer
     @i_have = contact.i_have
     @ready_to_start_in = contact.ready_to_start_in
 
-    mail from: @email, to: 'contact@productbuff.com', subject: "New contact from Website"
+    mail from: @email, to: 'hi@productbuff.com', subject: "New contact from Website"
   end
 end

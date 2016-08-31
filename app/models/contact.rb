@@ -5,7 +5,7 @@ class Contact
 
   attr_accessor :origin, :name, :email, :phone, :i_have, :ready_to_start_in
 
-  validates :name, :email, :phone, :i_have, :ready_to_start_in, presence: true
+  validates :name, :email, presence: true
 
   validates_format_of :email, with: /\A[^@\s]+@([^@\s]+\.)+[^@\s]+\z/,
                       message: I18n.t('errors.messages.invalid')
