@@ -20,38 +20,16 @@
                                      "Noticed a problem but don't have a solution yet",
                                      'Found a product idea but don’t have a prototype yet',
                                      'Made a prototype but have not validated my idea yet']),
-                       prompt: 'Choose and Option',
-                       input_html: { class: '.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle' }
-    / a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
-    /   | Choose one option
-    /   span.caret.fl-r.pT-10
-    / ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
-    /   li 
-    /     a href="#" Many ideas but don’t know which one to pursue
-    /   li 
-    /     a href="#" "Noticed a problem but don't have a solution yet"
-    /   li 
-    /     a href="#" Found a product idea but don’t have a prototype yet
-    /   li 
-    /     a href="#" Made a prototype but have not validated my idea yet
+                       prompt: 'Choose an option',
+                       input_html: { class: 'form-control c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
   label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I’m ready to start in... 
   .dropdown
     = f.input :ready_to_start_in, label: false,
                        collection: (['ASAP',
                                      '1-2 months',
                                      '3+ months']),
-                       prompt: 'Choose and Option',
-                       input_html: { class: '.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle' }
-    / a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
-    /   | Choose one option
-    /   span.caret.fl-r.pT-10
-    / ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
-    /   li 
-    /     a href="#" ASAP
-    /   li 
-    /     a href="#" 1-2 Months
-    /   li 
-    /     a href="#" 3+ Months
+                       prompt: 'Choose an option',
+                       input_html: { class: 'form-control c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
 
-  = f.submit 'Yes, I am, please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b',
+  = f.submit 'Yes, I am, please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b w-100',
     title: 'Learn more', data: { disable_with: 'Sending...' }
