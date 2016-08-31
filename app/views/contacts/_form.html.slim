@@ -10,7 +10,7 @@
     required: true, input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
 
   label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong Your phone number
-  = f.input :name, as: :string, label: false, placeholder: 'Your Phone Number',
+  = f.input :phone, as: :string, label: false, placeholder: 'Your Phone Number',
     input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
 
   label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I have... 
@@ -36,7 +36,7 @@
     /     a href="#" Made a prototype but have not validated my idea yet
   label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I’m ready to start in... 
   .dropdown
-    = f.input :i_have, label: false,
+    = f.input :ready_to_start_in, label: false,
                        collection: (['ASAP',
                                      '1-2 months',
                                      '3+ months']),

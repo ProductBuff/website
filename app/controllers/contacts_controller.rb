@@ -2,7 +2,7 @@ class ContactsController < ApplicationController
   def create
     @contact = Contact.new(permitted_params)
     if @contact.valid?
-      # ContactMailer.contact(@contact).deliver_now
+      ContactMailer.contact(@contact).deliver_now
       @contact = Contact.new # empty fields on form
       @message = I18n.t('contact.success')
     else
