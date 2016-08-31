@@ -2,10 +2,10 @@ Website.Flash =
   init: ->
     setTimeout( ->
       $('.flash').slideDown()
-    , 100)
+    , 1000)
     if $('.flash').length > 0
       setTimeout( ->
         $('.flash').slideUp()
-      , 6000)
+      , 10000)
     $(document).one 'click', ->
       $('.flash').slideUp()

@@ -12,14 +12,17 @@
   }
 
   .success.wrapper, .notice.wrapper {
-    background-color: $success;
+    background-color: var(--green);
+    color: var(--black);
   }
 
   .failure.wrapper, .alerts-error.wrapper, .alerts-error.wrapper {
-    background-color: $error;
+    background-color: var(--red);
+    color: white;
   }
 
   .locale.wrapper {
-    background-color: $info;
+    background-color: var(--yellow);
+    color: var(--black);
   }
 }

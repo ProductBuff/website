@@ -32,3 +32,23 @@ label {
   font-weight: 700;
   font-size: var(--font-scale-small);
 }
+
+// Error
+.has-error .help-block,
+.has-error .control-label {
+  color: var(--red);
+}
+
+.help-block {
+  margin-top: -5px;
+  font-family: var(--font-family-montserrat);
+  font-weight: 700;
+}
+
+.has-error {
+  input:not([type="submit"]):not([type="file"]):not([type="checkbox"]):not([type="radio"]),
+  select,
+  textarea {
+    border: 2px solid var(--red) !important;
+  }
+}

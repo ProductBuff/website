@@ -1,12 +1,12 @@
 = simple_form_for @contact, url: contacts_path, remote: true do |f|
   = f.input :name, as: :string, label: 'Your full name', placeholder: 'Your Full Name',
-    required: true, input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+    required: true, input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
   = f.input :email, as: :email, label: 'Your email', placeholder: 'your@email.com',
-    required: true, input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+    required: true, input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
   = f.input :phone, as: :string, label: 'Your phone number', placeholder: 'Your Phone Number',
-    input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+    input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
   = f.input :i_have, label: 'I have...',
                      collection: (['Many ideas but don’t know which one to pursue',
@@ -14,14 +14,14 @@
                                    'Found a product idea but don’t have a prototype yet',
                                    'Made a prototype but have not validated my idea yet']),
                      prompt: 'Choose an option',
-                     input_html: { class: 'form-control c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
+                     input_html: { class: 'c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
 
   = f.input :ready_to_start_in, label: "I’m ready to start in... ",
                      collection: (['ASAP',
                                    '1-2 months',
                                    '3+ months']),
                      prompt: 'Choose an option',
-                     input_html: { class: 'form-control c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
+                     input_html: { class: 'c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
 
   = f.submit 'Yes, I am, please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b w-100',
     title: 'Learn more', data: { disable_with: 'Sending...' }
