@@ -145,39 +145,4 @@ section.bg-gray-light.xs-pY-30.sm-pY-40.pY-70
 
 = render 'partials/contact'
 
-section.bg-green-dark.xs-pT-20.sm-pT-30.pT-40.xs-pB-30.sm-pB-40.pB-70
-  .container
-    .row
-      .col-sm-10.col-md-8.fl-n.mX-a
-        h2.mT-0.mB-20.ta-c.ff-arvo.c-white.fw-n[title="FAQ"] FAQ
-        .panel-group#accordion[role="tablist" aria-multiselectable="true"]
-          .panel.panel-default.bd-0.bg-transparent.bs-n
-            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-one" aria-expanded="true" aria-controls="collapse-one" title="Do I need to have validated my idea previously?"]
-              .panel-heading.pX-15[role="tab" id="heading-one"]
-                h3.ff-arvo.fw-n.c-white.m-0 Do I need to have validated my idea previously?
-                .faq-toggle.fl-r
-                  span.plus +
-                  span.minus -
-            .panel-collapse.collapse#collapse-one[role="tabpanel" aria-labelledby="heading-one"]
-              .panel-body.pY-0
-                p.c-white No, that’s our job. When you work with us, the very first thing we do is validating the need for your product in the marketplace.
-          .panel.panel-default.bd-0.bg-transparent.bs-n
-            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-two" aria-expanded="true" aria-controls="collapse-two" title="Do I need to have expertise in software product development?"]
-              .panel-heading[role="tab" id="heading-two"]
-                h3.ff-arvo.fw-n.c-white.m-0 Do I need to have expertise in software product development?
-                .faq-toggle.fl-r
-                  span.plus +
-                  span.minus -
-            .panel-collapse.collapse#collapse-two[role="tabpanel" aria-labelledby="heading-two"]
-              .panel-body.pY-0
-                p.c-white No, you will be working with a team of experts who have been developing software products for many years.
-          .panel.panel-default.bd-0.bg-transparent.bs-n
-            a.collapsed[role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse-three" aria-expanded="true" aria-controls="collapse-three" title="Do I need to spend lots of time and money to validate my new product?"]
-              .panel-heading[role="tab" id="heading-three"]
-                h3.ff-arvo.fw-n.c-white.m-0 Do I need to spend lots of time and money to validate my new product?
-                .faq-toggle.fl-r
-                  span.plus +
-                  span.minus -
-            .panel-collapse.collapse#collapse-three[role="tabpanel" aria-labelledby="heading-three"]
-              .panel-body.pY-0
-                p.c-white No, you will be taking advantage of our methodology (The RPP Method) which minimizes the time and cost while maximizes the success of launching your new product.
+= render 'partials/faq'
