@@ -1,0 +1,50 @@
+section.bg-green-dark.pT-70.pB-50
+  .container
+    .row
+      .col-sm-10.col-md-8.fl-n.mX-a
+        h2.mT-0.mB-10.ta-c.ff-arvo.c-green.fw-n Ready to work with us?
+        h4.m-0.ff-montserrat.tw-n.ls-2.tt-u.c-green-light.ta-c Our services start at $5,000 USD
+        p.ff-montserrat.tw-n.small.c-green-light.ta-c
+          | Join our pilot program NOW and receive <strong> 50% OFF </strong> - But hurry, there’s <strong>only 1 Spot left!</strong>
+    .row
+      .col-sm-8.fl-n.mX-a.ta-c
+        h3.mT-0.mB-50.ff-montserrat.fw-n.c-white Have one of our experienced Product Managers reach out to you to turn your product idea into a reality, quickly and efficiently.
+    .row
+      .col-sm-6.col-md-5.fl-n.mX-a
+        / TODO add real contact form and input mask (email, phone number)
+        label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong 
+          | *Your full name
+        input.form-control.bdrs-50px.mB-10.pX-25.fz-large[type="text" placeholder="Your full name"]
+        label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong 
+          | *Your email
+        input.form-control.bdrs-50px.mB-10.pX-25.fz-large[type="text" placeholder="example@email.com"]
+        label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong Your phone number
+        input.form-control.bdrs-50px.mB-10.pX-25.fz-large[type="text" placeholder="Your phone number"]
+        label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I have... 
+        .dropdown
+          a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
+            | Choose one option
+            span.caret.fl-r.pT-10
+          ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
+            li 
+              a href="#" Many ideas but don’t know which one to pursue
+            li 
+              a href="#" Noticed a problem but don't have a solution yet
+            li 
+              a href="#" Found a product idea but don’t have a prototype yet
+            li 
+              a href="#" Made a prototype but have not validated my idea yet
+        label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I’m ready to start in... 
+        .dropdown
+          a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
+            | Choose one option
+            span.caret.fl-r.pT-10
+          ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
+            li 
+              a href="#" ASAP
+            li 
+              a href="#" 1-2 Months
+            li 
+              a href="#" 3+ Months
+
+        = link_to 'Yes, I am, please contact me', '#', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b', title: 'Learn more'
