@@ -5,7 +5,7 @@ gem 'rails'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -15,16 +15,16 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Front-end gems
-gem 'slim-rails', '~> 3.0.1'
-gem 'autoprefixer-rails', '~> 5.2.1'
-gem 'bootstrap-sass', '~> 3.3.5'
-gem 'font-awesome-rails', '~> 4.4.0'
+gem 'slim-rails', '~> 3.1'
+gem 'autoprefixer-rails', '~> 6.0'
+gem 'bootstrap-sass', '~> 3.3'
+gem 'font-awesome-rails', '~> 4.6'
 
 group :development, :test do
   gem 'pry-rails'
   gem 'quiet_assets'
-  gem 'awesome_print', '~> 1.6.1', require: false
-  gem 'dotenv-rails', '~> 2.0.2'
+  gem 'awesome_print', '~> 1.7', require: false
+  gem 'dotenv-rails', '~> 2.1'
 end
 
 group :development do
