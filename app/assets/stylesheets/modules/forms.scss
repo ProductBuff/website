@@ -17,7 +17,18 @@ button[data-toggle="dropdown"] {
   }
 }
 
+// Placeholder
 ::placeholder {
   color: var(--gray) !important;
   font-style: italic;
+}
+
+// Label
+label {
+  color: var(--green);
+  font-family: var(--font-family-montserrat);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: var(--font-scale-small);
 }
