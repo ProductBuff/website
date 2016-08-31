@@ -32,6 +32,7 @@ end
 
 group :development do
   gem 'thin'
+  gem 'letter_opener'
 end
 
 group :production, :staging do
