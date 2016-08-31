@@ -33,10 +33,38 @@ label {
   font-size: var(--font-scale-small);
 }
 
+// Select
+.select-input {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+
+  select {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    height: 46px;
+    padding: 0.5rem 2.25rem 0.5rem 1rem;
+    line-height: 1.5;
+    -moz-appearance: none;
+  }
+
+  &:after {
+    content: '\25be';
+    position: absolute;
+    top: 44%;
+    right: 1.5rem;
+    display: inline-block;
+    pointer-events: none;
+    color: var(--gray);
+  }
+}
+
 // Error
 .has-error .help-block,
 .has-error .control-label {
   color: var(--red);
+  font-size: 80%;
 }
 
 .help-block {
