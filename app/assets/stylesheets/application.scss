@@ -5,6 +5,10 @@
 @import 'typ';
 @import 'funkcss.min';
 
+// ==== Base
+@import 'base/typography';
+@import 'base/utility';
+
 // ==== Functional css
 @import 'fcss/fonts';
 @import 'fcss/colors';
@@ -13,10 +17,6 @@
 @import 'fcss/border';
 @import 'fcss/boxshadow';
 @import 'fcss/responsive';
-
-// ==== Base
-@import 'base/typography';
-@import 'base/utility';
 
 // ==== Modules
 @import 'modules/buttons';
