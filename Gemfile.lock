@@ -66,6 +66,9 @@ GEM
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
+    initjs (2.2.0)
+      jquery-rails
+      rails (>= 3.1)
     jquery-rails (4.2.1)
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
@@ -181,6 +184,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   dotenv-rails (~> 2.1)
   font-awesome-rails (~> 4.6)
+  initjs
   jquery-rails
   passenger (~> 5.0)
   pg (~> 0.15)
