@@ -1,0 +1,57 @@
+= simple_form_for @contact, url: contacts_path, remote: true do |f|
+  label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong 
+    | *Your full name
+  = f.input :name, as: :string, label: false, placeholder: 'Your Full Name',
+    required: true, input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+
+  label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong 
+    | *Your email
+  = f.input :email, as: :email, label: false, placeholder: 'your@email.com',
+    required: true, input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+
+  label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strong Your phone number
+  = f.input :name, as: :string, label: false, placeholder: 'Your Phone Number',
+    input_html: { class: 'form-control bdrs-50px mB-10 pX-25 fz-large' }
+
+  label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I have... 
+  .dropdown
+    = f.input :i_have, label: false,
+                       collection: (['Many ideas but don’t know which one to pursue',
+                                     "Noticed a problem but don't have a solution yet",
+                                     'Found a product idea but don’t have a prototype yet',
+                                     'Made a prototype but have not validated my idea yet']),
+                       prompt: 'Choose and Option',
+                       input_html: { class: '.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle' }
+    / a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
+    /   | Choose one option
+    /   span.caret.fl-r.pT-10
+    / ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
+    /   li 
+    /     a href="#" Many ideas but don’t know which one to pursue
+    /   li 
+    /     a href="#" "Noticed a problem but don't have a solution yet"
+    /   li 
+    /     a href="#" Found a product idea but don’t have a prototype yet
+    /   li 
+    /     a href="#" Made a prototype but have not validated my idea yet
+  label.small.c-green.ta-l.ff-montserrat.ls-2.tt-u.strongI I’m ready to start in... 
+  .dropdown
+    = f.input :i_have, label: false,
+                       collection: (['ASAP',
+                                     '1-2 months',
+                                     '3+ months']),
+                       prompt: 'Choose and Option',
+                       input_html: { class: '.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle' }
+    / a.form-control.c-gray.ts-i.bdrs-50px.mB-10.fz-large.dropdown-toggle#dropdown-select-1[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"] 
+    /   | Choose one option
+    /   span.caret.fl-r.pT-10
+    / ul.dropdown-menu.pY-10.bdrs-10[aria-labelledby="dropdown-select-1"]
+    /   li 
+    /     a href="#" ASAP
+    /   li 
+    /     a href="#" 1-2 Months
+    /   li 
+    /     a href="#" 3+ Months
+
+  = f.submit 'Yes, I am, please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b',
+    title: 'Learn more', data: { disable_with: 'Sending...' }

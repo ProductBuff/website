@@ -1,0 +1,9 @@
+if (<%= @contact.errors.any? %>) {
+  $('.flash').html('<div class="alerts-error wrapper"><div class="alerts-error"><%= @message %></div></div>');
+} else {
+  $('.flash').html('<div class="notice wrapper"><div class="notice"><%= @message %></div></div>');
+}
+
+Website.Flash.init();
+
+$(".js-contact-section").html($("<%= escape_javascript(render partial: 'contacts/form', locals: { contact: @contact }) %>"));
