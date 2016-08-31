@@ -1,23 +1,24 @@
-footer.bg-black.pT-70.pB-30
+footer.bg-black.xs-pT-30.sm-pT-40.pT-70.xs-pB-20.pB-30
   .container
     .row
-      .col-md-10.fl-n.mX-a
+      .col-sm-12.fl-n.mX-a
         .row
-          .col-sm-7
-            h3.mT-5.mb-0.mR-50.c-green.ff-montserrat.d-ib Product Buff
-            = link_to 'Services', '#', class: 'mR-40 tt-u c-green-light ls-2 fz-small'
-            = link_to 'Newsletter', '#', class: 'mR-40 tt-u c-green-light ls-2 fz-small'
-            = link_to 'Blog', '#', class: 'mR-40 tt-u c-green-light ls-2 fz-small'
-          .col-sm-5
-            .social-icons.d-ib.fl-r
-              .social-icon.mR-30.d-ib
-                = link_to '', class: 'social-icon-link i-green-light mR-15 va-m ta-c d-tbc bdrs-50 fz-large c-black' do
+          .col-sm-8
+            h3.mT-5.mb-0.sm-mB-15.sm-mR-0.mR-50.c-green.ff-montserrat.sm-d-b.sm-ta-c.d-ib Product Buff
+            .footer-link.sm-d-b.d-ib.sm-fl-n.sm-ta-c.sm-mB-20
+              = link_to 'Services', '#', class: 'xs-mR-10 mR-40 tt-u c-green-light ls-2 fz-small'
+              = link_to 'Newsletter', '#', class: 'xs-mR-10 mR-40 tt-u c-green-light ls-2 fz-small'
+              = link_to 'Blog', '#', class: 'sm-mR-0 tt-u c-green-light ls-2 fz-small'
+          .col-sm-4.xs-mT-20
+            .social-icons.sm-d-b.d-ib.sm-ta-c.sm-fl-n.fl-r
+              .social-icon.xs-mR-10.mR-30.d-ib
+                = link_to '', class: 'social-icon-link i-green-light va-m ta-c d-tbc bdrs-50 fz-large c-black' do
                   i.fa.fa-instagram
-              .social-icon.mR-30.d-ib
-                = link_to '', class: 'social-icon-link i-green-light mR-15 va-m ta-c d-tbc bdrs-50 fz-large c-black' do
+              .social-icon.xs-mR-10.mR-30.d-ib
+                = link_to '', class: 'social-icon-link i-green-light va-m ta-c d-tbc bdrs-50 fz-large c-black' do
                   i.fa.fa-twitter
               .social-icon.d-ib
-                = link_to '', class: 'social-icon-link i-green-light mR-15 va-m ta-c d-tbc bdrs-50 fz-large c-black' do
+                = link_to '', class: 'social-icon-link i-green-light va-m ta-c d-tbc bdrs-50 fz-large c-black' do
                   i.fa.fa-facebook
     .row
       .col-md-10.fl-n.mX-a

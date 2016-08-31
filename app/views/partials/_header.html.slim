@@ -1,21 +1,19 @@
 nav.navbar.navbar-default.mB-0
   .container
-    .row
-      .col-md-10.fl-n.mX-a
-        .navbar-header
-          button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"
-            span.sr-only Toggle navigation
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          = link_to '#', class: 'brand' do 
-            h3.mT-20.mB-0.ff-montserrat.cc-green Product Buff
-          p.m-0.fz-small.ff-montserrat +1 (444) 333-9999
-        .collapse.navbar-collapse#bs-example-navbar-collapse-1
-          ul.nav.navbar-nav.navbar-right
-            li
-              = link_to 'Services', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong mR-20'
-            li
-              = link_to 'Newsletter', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong mR-20'
-            li
-              = link_to 'Blog', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong'
+    .navbar-header
+      button.navbar-toggle.collapsed.sm-mT-25[type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"]
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      = link_to '#', class: 'brand' do 
+        h3.sm-mL-15.mT-20.mB-0.ff-montserrat.cc-green Product Buff
+      p.m-0.sm-mL-15.fz-small.ff-montserrat +1 (444) 333-9999
+    .collapse.navbar-collapse#bs-example-navbar-collapse-1
+      ul.nav.navbar-nav.navbar-right
+        li
+          = link_to 'Services', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong mR-20'
+        li
+          = link_to 'Newsletter', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong mR-20'
+        li
+          = link_to 'Blog', '#', class: 'tt-u ls-2 ff-montserrat fz-smaller strong'
