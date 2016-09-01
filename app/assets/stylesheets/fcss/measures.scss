@@ -6,3 +6,7 @@
 .h-130 { height: 130px; }
 .h-190 { height: 190px; }
 .h-hero { height: calc(100vh - 80px); }
+
+@media (max-width: 767px) {
+  .h-hero { height: calc(100vh - 61px); }
+}
