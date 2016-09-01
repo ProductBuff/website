@@ -109,8 +109,8 @@ samp { overflow-x: auto; }
 
 :root {
   --text-rendering: optimizeLegibility;
-  --font-size: 16px;
-  --line-height: 1.6;
+  --font-size: 18px;
+  --line-height: 1.7;
   --font-family: sans-serif;
   --font-family-code: monospace;
 
