@@ -1,11 +1,11 @@
 = simple_form_for @contact, url: contacts_path, remote: true do |f|
-  = f.input :name, as: :string, label: 'Your full name', placeholder: 'Your Full Name',
+  = f.input :name, as: :string, label: 'Your full name', placeholder: 'Elon Musk',
     required: true, input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
-  = f.input :email, as: :email, label: 'Your email', placeholder: 'your@email.com',
+  = f.input :email, as: :email, label: 'Your email', placeholder: 'elon@tesla.com',
     required: true, input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
-  = f.input :phone, as: :string, label: 'Your phone number', placeholder: 'Your Phone Number',
+  = f.input :phone, as: :string, label: 'Your phone number', placeholder: '+1 (123) 456 78 90',
     input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
   .select-input
