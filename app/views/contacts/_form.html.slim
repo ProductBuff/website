@@ -13,9 +13,10 @@
                        collection: (['Many ideas but don’t know which one to pursue',
                                      "Noticed a problem but don't have a solution yet",
                                      'Found a product idea but don’t have a prototype yet',
-                                     'Made a prototype but have not validated my idea yet']),
+                                     'Made a prototype but have not validated my idea yet',
+                                     "No clue where even to start"]),
                        prompt: 'Choose an option',
-                       input_html: { class: 'c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
+                       input_html: { class: 'c-gray pL-25 pR-40 fs-i bdrs-50px mB-10 fz-large' }
 
   .select-input
     = f.input :ready_to_start_in, label: "I’m ready to start in... ",
@@ -23,7 +24,7 @@
                                      '1-2 months',
                                      '3+ months']),
                        prompt: 'Choose an option',
-                       input_html: { class: 'c-gray pX-25 fs-i bdrs-50px mB-10 fz-large' }
+                       input_html: { class: 'c-gray pL-25 pR-40 fs-i bdrs-50px mB-10 fz-large' }
 
-  = f.submit 'Yes, I am, please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b w-100',
-    title: 'Learn more', data: { disable_with: 'Sending...' }
+  = f.submit 'Please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b w-100',
+    title: 'Please contact me', data: { disable_with: 'Sending...' }
