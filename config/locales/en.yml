@@ -22,6 +22,6 @@
 en:
   hello: "Hello world"
   contact:
-    success: 'Thank you for your contact! We will reach you soon!'
-    failure: 'Please, review the form!'
+    success: 'Thank you for your interest! We will reach you out soon!'
+    failure: 'Please, review the form'
     url_message: 'thankyou'
