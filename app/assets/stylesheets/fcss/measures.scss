@@ -7,6 +7,12 @@
 .h-190 { height: 190px; }
 .h-hero { height: calc(100vh - 80px); }
 
-@media (max-width: 767px) {
+// Small screen / phone (max 768px)
+@media(max-width: 48em) {
   .h-hero { height: calc(100vh - 61px); }
+}
+
+// Extra small screen / phone (max 544px)
+@media(max-width: 34em) {
+  .h-hero { height: calc(100vh); }
 }
