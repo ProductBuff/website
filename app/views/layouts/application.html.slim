@@ -16,6 +16,7 @@ html lang="en-US" prefix="og: http://ogp.me/ns#"
     
     / JS and CSS files
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = favicon_link_tag 'favicon.png'
     = csrf_meta_tags
 
@@ -28,4 +29,3 @@ html lang="en-US" prefix="og: http://ogp.me/ns#"
     = render 'partials/flash'
     = yield
     = render 'partials/footer'
-    = javascript_include_tag 'application', 'data-turbolinks-track' => true
