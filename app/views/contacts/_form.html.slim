@@ -5,8 +5,8 @@
   = f.input :email, as: :email, label: 'Your email', placeholder: 'elon@tesla.com',
     required: true, input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
 
-  = f.input :phone, as: :string, label: 'Your phone number', placeholder: '+1 (123) 456 78 90',
-    input_html: { class: 'bdrs-50px mB-10 pX-25 fz-large' }
+  = f.input :phone, as: :string, label: 'Your phone number', placeholder: '+1 123 456 7890',
+    input_html: { class: 'js-phone bdrs-50px mB-10 pX-25 fz-large' }
 
   .select-input
     = f.input :i_have, label: 'I have...',
@@ -28,3 +28,6 @@
 
   = f.submit 'Please contact me', class: 'btn primary whs-n ff-montserrat strong tt-u ls-2 pX-40 pY-15 mT-30 bdrs-50px d-b w-100',
     title: 'Please contact me', data: { disable_with: 'Sending...' }
+
+javascript:
+  Website.MaskedPhone.init();

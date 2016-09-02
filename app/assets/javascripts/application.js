@@ -17,3 +17,4 @@
 //= require website/website.js
 //= require init.js
 //= require_tree .
+//= require formatter
