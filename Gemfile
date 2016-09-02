@@ -21,7 +21,10 @@ gem 'bootstrap-sass', '~> 3.3'
 gem 'font-awesome-rails', '~> 4.6'
 # For better forms
 gem 'simple_form', '~> 3.3'
+# To modularize and control JS functions execution based on pages
 gem 'initjs'
+# For better SEO
+gem 'meta-tags'
 
 group :development, :test do
   gem 'pry-rails'
