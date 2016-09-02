@@ -1,0 +1,30 @@
+en:
+  meta_tags:
+    pages:
+      home:
+        title: 'productbuff - We transform your ideas into successful products'
+        description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+        keywords: 'MVP, MVP Slim, minimum viable product, minimal viable product, mvp product, Discovery, Design, Development, Software development, Ideas, Validation, Support, Maintenance, Product Market Fit'
+        og:
+          title: 'We transform your ideas into successful products'
+          locale: 'en_US'
+          site_name: 'http://productbuff.me'
+          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+        twitter:
+          card: 'We transform your ideas into sucessful products'
+          site: '@productbuff'
+          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+
+      services:
+        title: 'productbuff - We transform your ideas into successful products'
+        description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+        keywords: 'MVP, MVP Slim, minimum viable product, minimal viable product, mvp product, Discovery, Design, Development, Software development, Ideas, Validation, Support, Maintenance, Product Market Fit'
+        og:
+          title: 'We transform your ideas into successful products'
+          locale: 'en_US'
+          site_name: 'http://productbuff.me'
+          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+        twitter:
+          card: 'We transform your ideas into sucessful products'
+          site: '@productbuff'
+          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
