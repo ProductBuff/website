@@ -2,29 +2,29 @@ en:
   meta_tags:
     pages:
       home:
-        title: 'productbuff - We transform your ideas into successful products'
-        description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
-        keywords: 'MVP, MVP Slim, minimum viable product, minimal viable product, mvp product, Discovery, Design, Development, Software development, Ideas, Validation, Support, Maintenance, Product Market Fit'
+        title: 'Product Buff - Launch your new software product with confidence'
+        description: "We help you TRULY validate your product idea WITHOUT investing an arm and a leg launching it unsuccessfully"
+        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, Dan Martell, Danny Iny, Miguel Hernandez, idea, customer'
         og:
-          title: 'We transform your ideas into successful products'
+          title: 'Launch your new software product with confidence'
           locale: 'en_US'
-          site_name: 'http://productbuff.me'
-          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+          site_name: 'http://www.productbuff.com'
+          description: "We help you TRULY validate your product idea WITHOUT investing an arm and a leg launching it unsuccessfully"
         twitter:
-          card: 'We transform your ideas into sucessful products'
+          card: 'Launch your new software product with confidence'
           site: '@productbuff'
-          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+          description: "We help you TRULY validate your product idea WITHOUT investing an arm and a leg launching it unsuccessfully"
 
       services:
-        title: 'productbuff - We transform your ideas into successful products'
-        description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
-        keywords: 'MVP, MVP Slim, minimum viable product, minimal viable product, mvp product, Discovery, Design, Development, Software development, Ideas, Validation, Support, Maintenance, Product Market Fit'
+        title: Product Buff - Transform your influence into recurring revenue'
+        description: "We help entrepreneurs like you validate new software products quickly and efficiently by talking to your customers and building a clickable prototype"
+        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, Dan Martell, Danny Iny, Miguel Hernandez, idea, potential customers, customer, feedback, problem,'
         og:
-          title: 'We transform your ideas into successful products'
+          title: 'Transform your influence into recurring revenue'
           locale: 'en_US'
-          site_name: 'http://productbuff.me'
-          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+          site_name: 'http://www.productbuff.com'
+          description: "We help entrepreneurs like you validate new software products quickly and efficiently by talking to your customers and building a clickable prototype"
         twitter:
-          card: 'We transform your ideas into sucessful products'
+          card: 'Transform your influence into recurring revenue'
           site: '@productbuff'
-          description: "We've helped startups and small business to plan, design, develop, validate and achieve product market fit of web and mobile apps"
+          description: "We help entrepreneurs like you validate new software products quickly and efficiently by talking to your customers and building a clickable prototype"
