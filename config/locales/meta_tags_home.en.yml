@@ -4,7 +4,7 @@ en:
       home:
         title: 'Product Buff - Launch your new software product with confidence'
         description: "We help you TRULY validate your product idea WITHOUT investing an arm and a leg launching it unsuccessfully"
-        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, Dan Martell, Danny Iny, Miguel Hernandez, idea, customer'
+        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, idea, customer'
         og:
           title: 'Launch your new software product with confidence'
           locale: 'en_US'
@@ -18,7 +18,7 @@ en:
       services:
         title: Product Buff - Transform your influence into recurring revenue'
         description: "We help entrepreneurs like you validate new software products quickly and efficiently by talking to your customers and building a clickable prototype"
-        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, Dan Martell, Danny Iny, Miguel Hernandez, idea, potential customers, customer, feedback, problem,'
+        keywords: 'new software product, new product, new software, software, prototype, validate, validation, rpp method, rpp, rapid prototyping method, rapid prototyping, prototyping, clickable prototype, get pre-orders, pre-orders, discover, design, deliver, idea, potential customers, customer, feedback, problem,'
         og:
           title: 'Transform your influence into recurring revenue'
           locale: 'en_US'
