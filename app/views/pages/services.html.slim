@@ -91,24 +91,7 @@ section.bg-gray-light.xs-pY-30.pY-40
         p.mT-0 We’ve spent the past several years helping entrepreneurs make, market and manage successful products, generating millions of dollars in recurring revenue and serving thousands of users.
 
 section.xs-pY-30.pY-40
-  .container
-    .row
-      .col-sm-9.col-md-7.fl-n.mX-a
-        h2.mT-0.sm-mB-10.mB-30.ff-arvo.ta-c[title="We've helped these companies make and market great products:"] We've helped these companies make and market great products:
-      .col-sm-12
-        .row.mB-20
-          .col-sm-2
-            = image_tag('viachamber-logo.png', class: 'img img-responsive fl-n mX-a', alt: 'Viachamber')
-          .col-sm-2
-            = image_tag('broadband-tv-logo.png', class: 'img img-responsive fl-n mX-a', alt: 'Broadband TV')
-          .col-sm-2
-            = image_tag('mystro-logo.png', class: 'img img-responsive fl-n mX-a', alt: 'Mystro app')
-          .col-sm-2
-            = image_tag('dogsync-logo.png', class: 'img img-responsive fl-n mX-a', alt: 'DogSync')
-          .col-sm-2
-            = image_tag('digital-domain-logo.png', class: 'img img-responsive fl-n mX-a', alt: 'Digital Domain DD')
-          .col-sm-2
-            = image_tag('lets-jam-logo.png', class: 'img img-responsive fl-n mX-a', alt: "Let's Jam")
+  = render 'partials/companies'
 
 section.bg-gray-light.xs-pY-30.pY-40
   .container
