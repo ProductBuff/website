@@ -1,0 +1,17 @@
+.carousel-inner {
+  min-height: 250px;
+}
+
+.carousel-indicators {
+  left: 0;
+  bottom: 0;
+}
+
+.carousel-indicators li {
+  border: 0;
+  background-color: var(--green-light);
+}
+
+.carousel-indicators .active {
+  background-color: var(--green);
+}
