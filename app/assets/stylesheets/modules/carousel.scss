@@ -1,7 +1,12 @@
 .carousel-inner {
   min-height: 250px;
+  
+  .item {
+    padding: 0 30px;
+  }
 }
 
+// Indicators
 .carousel-indicators {
   left: 0;
   bottom: 0;
@@ -10,8 +15,55 @@
 .carousel-indicators li {
   border: 0;
   background-color: var(--green-light);
+
+  &:not(:last-of-type) {
+    margin-right: 6px;
+  }
 }
 
 .carousel-indicators .active {
   background-color: var(--green);
+}
+
+// Controllers
+.carousel-control {
+  color: var(--green-light);
+  text-shadow: none;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+  color: var(--green);
+  transition: all .3s;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+  width: 30px;
+}
+
+.carousel-control.left {
+  margin-left: -10px;
+}
+
+.carousel-control.right {
+  margin-right: -10px;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+  margin-left: 0;
+}
+
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {
+  left: 0;
+  margin-left: 0;
+}
+
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 0;
+  margin-right: 0;
 }
