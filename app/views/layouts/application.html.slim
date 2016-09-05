@@ -11,6 +11,9 @@ html lang="en-US" prefix="og: http://ogp.me/ns#"
     meta name="robots" content="index, follow"
     meta name="google" content="notranslate"
 
+    / Google Font import
+    a[href="https://fonts.googleapis.com/css?family=Arvo:400,700|Montserrat:400,700|Open+Sans:400,700" rel="stylesheet"]
+
     / CSS files
     = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
 
@@ -26,8 +29,6 @@ html lang="en-US" prefix="og: http://ogp.me/ns#"
     = yield
     = render 'partials/footer'
 
-    / Google Font import
-    a[href="https://fonts.googleapis.com/css?family=Arvo:400,700|Montserrat:400,700|Open+Sans:400,700" rel="stylesheet"]
 
     / JS files
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
