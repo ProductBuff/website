@@ -1,9 +1,18 @@
-a.c-green-light {
-  transition: all .3s;
-  text-decoration: none;
+a {
+  transition: all .3s !important;
+  text-decoration: none !important;
 
-  &:hover,
-  &:focus {
-    color: var(--green);
+  &.c-green-light {
+    &:hover,
+    &:focus {
+      color: var(--green);
+    }
+  }
+
+  &.c-black {
+    &:hover,
+    &:focus {
+      color: var(--green);
+    }
   }
 }
